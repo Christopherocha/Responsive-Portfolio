@@ -1,0 +1,256 @@
+.site {
+	margin: 0;
+	padding:0;
+	display: flex;
+  	min-height: 100vh;
+  	flex-direction: column;
+}
+
+header {
+	background-color: #fff;
+	border-bottom: solid 5px #ccc;
+	position: relative;
+	height: 75px;
+}
+
+section h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-weight: bold;
+	font-size: 28px;
+}
+
+aside h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-weight: bold;
+	font-size: 22px;
+	text-align: center;
+}
+
+.connectImages {
+	width: 70px;
+	height: 70px;
+	padding:4px;
+}
+
+#header-name {
+	margin: auto;
+    font-size: 24px;
+}
+
+#nav-menu {
+	width: 250px;
+    position: absolute;
+    right: 230px;
+    top: 25px;
+}
+
+p {
+	color: #777;
+}
+
+.wrapper {
+	background-image: url("../images/squared_metal.png");
+	background-repeat: repeat;
+	overflow: auto;
+	clear: both;
+	flex: 1;
+}
+
+.content {
+	background-color: #fff;
+	border: 3px solid #ddd;
+	width: 615px;
+    float: left;
+    margin: 20px 25px 20px 0;
+    padding: 20px
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.nav-links {
+	padding: 0 10px;
+	font-size: 18px;
+}
+
+.image-container {
+	width: 50%;
+	float: left;
+	position: relative;
+}
+
+.image-container img {
+	margin: 20px 0 5px 0;
+}
+
+.left {
+	float: left;
+	width: 250px;
+	height: 200px;
+}
+
+.right {
+	float: right;
+	width: 250px;
+	height: 200px;
+}
+
+.banner-left {
+	text-align: center;
+	background-color: #4aaaa5;
+	height: 50px;
+    width: 250px;
+    position: absolute;
+    bottom: 30px;
+}
+
+.banner-right {
+	text-align: center;
+	background-color: #4aaaa5;
+	height: 50px;
+    width: 250px;
+    position: absolute;
+    bottom: 30px;
+    right: 0px;
+}
+
+.banner-text {
+	color: #fff;
+	line-height: 50px;
+}
+
+#row2 {
+	clear: both;
+}
+
+#row3 {
+	clear: both;
+}
+
+#button {
+	background-color: #4aaaa5;
+    color: #fff;
+    border-radius: 0;
+    border: none;
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+}
+
+#about {
+	/*width: 630px;
+    float: left;
+    margin: 10px 5px 10px 0;
+    padding: 20px 15px;*/
+}
+
+#aboutImage {
+	width: 230px;
+}
+
+#connect {
+	float: left;
+    margin: 20px 0;
+    width: 244px;
+    padding: 20px 10px;
+}
+
+#name {
+	width: 15%;
+    height: 50px;
+    position: absolute;
+    bottom: 0px;
+    left: 242px;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: white;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+#middle-link {
+	border-right: 1px solid gray;
+	border-left: 1px solid gray;
+}
+
+/* Contact Form */
+
+.input {
+	width: 98%;
+	line-height: 1;
+	padding: 5px;
+	font-size: 14px;
+}
+
+.field {
+	margin: 10px 0 5px 0;
+}
+
+#contact {
+	/*width: 50%;
+	float: left;
+	margin: 20px;
+	padding: 20px;*/
+}
+
+/* End Contact CSS */
+
+/* Begin Portfolio CSS */
+
+#portfolio {
+	/*width: 50%;
+	float: left;
+	margin: 20px;
+	padding: 20px;*/
+}
+
+/* End Contact CSS */
+
+.footer {
+	background-color: #666;
+	clear: both;
+	border-top: solid #4aaaa5 10px;
+	height: 75px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #777
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+footer p {
+	color: white;
+	text-align: center;
+	margin-top: 25px;
+}
+
+.about-paragraph {
+	margin-top: 25px;
+	font-size: 16px;
+	line-height: 2;
+}
+
+/*Teal color (used for headings and backgrounds): #4aaaa5
+Regular font color (used for paragraphs and all text besides the headings): #777777
+Main header background color: #ffffff
+Main header border color: #cccccc
+Footer background color: #666666
+Main content background color: #ffffff
+Main content border color: #dddddd*/
