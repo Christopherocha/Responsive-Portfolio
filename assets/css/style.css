@@ -162,7 +162,7 @@ p {
 
 #name {
 	width: 15%;
-    height: 50px;
+    height: 100%;
     position: absolute;
     bottom: 0px;
     left: 242px;
@@ -170,7 +170,7 @@ p {
     background-color: #4aaaa5;
     color: white;
     font-weight: bold;
-    line-height: 50px;
+    line-height: 75px;
 }
 
 #middle-link {
@@ -247,10 +247,65 @@ footer p {
 	line-height: 2;
 }
 
-/*Teal color (used for headings and backgrounds): #4aaaa5
-Regular font color (used for paragraphs and all text besides the headings): #777777
-Main header background color: #ffffff
-Main header border color: #cccccc
-Footer background color: #666666
-Main content background color: #ffffff
-Main content border color: #dddddd*/
+/*Responsive styling below*/
+
+@-ms-viewport{
+  width: device-width;
+}
+
+/*Specific styling to max-width 0f 980*/
+@media screen and (max-width: 980px) {
+
+	.container {
+		width: 700px;
+		margin: 0 auto;
+		position: relative;
+	}
+
+	.content {
+		width: 350px;
+	}
+
+	.connect{
+		width: 200px;
+	}
+
+	#name {
+		width: 200px;
+		left: 135px;
+	}
+
+	#nav-menu {
+		right: 125px;
+	}
+
+
+
+	/*index page specific*/
+
+	#aboutImage {
+		width: 100%;
+	}
+
+	.image-container {
+		width: 100%;
+		
+	}
+
+	#image-id {
+		width: 100%;
+		max-height: 250px;
+	}
+
+	/*portfolio page specific*/
+
+	.right {
+    	width: 100%;
+  	}
+
+  	.left {
+   		width: 100%;
+  	}
+
+}
+/* End of 980px breakpoint */
