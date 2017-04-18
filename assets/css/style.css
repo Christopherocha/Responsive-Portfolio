@@ -185,6 +185,7 @@ p {
 	line-height: 1;
 	padding: 5px;
 	font-size: 14px;
+	color: #969693;
 }
 
 .field {
@@ -249,12 +250,14 @@ footer p {
 
 /*Responsive styling below*/
 
-@-ms-viewport{
-  width: device-width;
-}
+
 
 /*Specific styling to max-width 0f 980*/
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 980px) and (min-width: 769px) {
+
+	@-ms-viewport{
+	  width: device-width;
+	}
 
 	.container {
 		width: 700px;
@@ -307,5 +310,133 @@ footer p {
    		width: 100%;
   	}
 
+  	.banner-text {
+  		width: 100%;
+  	}
+
+  	/*contacgt page specific*/
+
+  	textarea {
+  		height: 200px;
+  	}
+
 }
 /* End of 980px breakpoint */
+/* Beginning of 768px breakpoint */
+
+@media screen and (max-width: 768px) and (min-width: 641px){
+
+	@-ms-viewport{
+	  width: device-width;
+	}
+
+	.container {
+		width: 90%;
+		margin: 0 auto;
+		position: relative;
+	}
+
+	.content {
+		width: 95%;
+    	margin: 20px auto;
+	}
+
+	#name {
+		width: 200px;
+		left: 40px;
+	}
+
+	#nav-menu {
+		right: 5px;
+	}
+
+	#aboutImage.image-container {
+		width: 50%;
+		float: left;
+		position: relative;
+		margin-right: 15px;
+		margin-bottom: 10px;
+	}
+
+	.image-container img {
+		margin: 20px 0 5px 0;
+	}
+
+	#connect {
+		width: 95%;
+	    margin: 10px auto 25px 0;
+	    position: relative;
+	    padding: 20px;
+
+	}
+
+	.heading {
+		text-align: left
+	}
+
+	#paragraph {
+		margin-top: 20px;
+	}
+
+	#image-id {
+		width: 100%;
+		/*max-height: 250px;*/
+	}
+
+	.right {
+		width: 275px;
+		height: 225px;
+	}
+
+	.left {
+		width: 275px;
+		height: 225px;
+	}
+
+	.banner-text{
+		width: 275px;
+	}
+
+	textarea {
+		height: 200px;
+	}
+
+}
+
+@media screen and (max-width: 640px) {
+
+	@-ms-viewport{
+	  width: device-width;
+	}
+
+	header {
+		height: 120px;
+	}
+
+	#name {
+		width: 100%;
+		max-height: 80px;
+		position: static;
+	}
+
+	#nav-menu {
+		width: 100%;
+		bottom: 10px;
+		text-align: center;
+		position: static;
+		line-height: 40px;
+	}
+
+	.nav-links {
+		padding: 0 50px;
+	}
+
+	.container {
+		width: 90%;
+	}
+
+	.content {
+		width: 95%;
+    	margin: 15px auto;
+    	padding: 10px;
+	}
